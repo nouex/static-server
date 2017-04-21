@@ -1,0 +1,22 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine test/*.js",
+    "start": "node server.js",
+    "lint": "./node_modules/eslint *.js middleware/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0"
+  },
+  "devDependencies": {
+    "debug": "^2.6.3",
+    "eslint-config-gonodio": "^0.3.0",
+    "eslint": "^v3.14.0",
+    "jasmine": "^v2.5.2"
+  }
+}
