@@ -24,9 +24,9 @@ const defPort = 5000
 
 describe('server', function () {
     // FIXME: implement opts.port
-    xit('listens on opts.port', function (done) {
+    it('listens on opts.port', function (done) {
       const port = process.env.PORT = 5454;
-      const server = init();
+      const server = init({port});
       // set env.PORT back to "", we only needed xit for this spec
       delete process.env.PORT
       checkListening(server);
