@@ -1,6 +1,6 @@
 {
-  "name": "static-server",
-  "version": "1.0.0",
+  "name": "bare-static-server",
+  "version": "0.1.0",
   "description": "",
   "main": "server.js",
   "scripts": {
