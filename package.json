@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jasmine test/*.js",
     "start": "node server.js",
-    "lint": "./node_modules/eslint *.js middleware/*.js"
+    "lint": "node ./node_modules/eslint/bin/eslint *.js middleware/*.js"
   },
   "author": "",
   "license": "ISC",
